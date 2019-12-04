@@ -1,0 +1,6 @@
+84.40.66.218 - - [03/Jun/2017:20:53:39 +0300] "GET / HTTP/1.1" 403 297 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+84.40.66.218 - - [03/Jun/2017:20:53:39 +0300] "GET /favicon.ico HTTP/1.1" 403 308 "http://84.40.66.218/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+84.40.66.218 - - [29/Jan/2018:20:18:38 +0200] "GET / HTTP/1.1" 403 297 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
+84.40.66.218 - - [29/Jan/2018:20:18:38 +0200] "GET /favicon.ico HTTP/1.1" 403 308 "http://84.40.66.218/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
+84.40.66.218 - - [29/Jan/2018:20:18:41 +0200] "GET / HTTP/1.1" 403 297 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
+84.40.66.218 - - [29/Jan/2018:20:18:41 +0200] "GET /favicon.ico HTTP/1.1" 403 308 "http://84.40.66.218/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"

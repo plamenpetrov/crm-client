@@ -1,0 +1,6 @@
+[Sat Jun 03 20:53:39.558446 2017] [authz_core:error] [pid 13932:tid 1224] [client 84.40.66.218:12981] AH01630: client denied by server configuration: C:/wamp64/www/kantoraclient/
+[Sat Jun 03 20:53:39.584020 2017] [authz_core:error] [pid 13932:tid 1224] [client 84.40.66.218:12981] AH01630: client denied by server configuration: C:/wamp64/www/kantoraclient/favicon.ico, referer: http://84.40.66.218/
+[Mon Jan 29 20:18:38.467298 2018] [authz_core:error] [pid 13944:tid 1272] [client 84.40.66.218:1279] AH01630: client denied by server configuration: C:/wamp64/www/kantoraclient/
+[Mon Jan 29 20:18:38.562550 2018] [authz_core:error] [pid 13944:tid 1272] [client 84.40.66.218:1279] AH01630: client denied by server configuration: C:/wamp64/www/kantoraclient/favicon.ico, referer: http://84.40.66.218/
+[Mon Jan 29 20:18:41.805123 2018] [authz_core:error] [pid 13944:tid 1272] [client 84.40.66.218:1279] AH01630: client denied by server configuration: C:/wamp64/www/kantoraclient/
+[Mon Jan 29 20:18:41.852247 2018] [authz_core:error] [pid 13944:tid 1272] [client 84.40.66.218:1279] AH01630: client denied by server configuration: C:/wamp64/www/kantoraclient/favicon.ico, referer: http://84.40.66.218/

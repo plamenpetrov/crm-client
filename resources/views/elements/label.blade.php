@@ -1,0 +1,1 @@
+<h4><strong for="inputLGEx">{!! $placeholder !!}</strong></h4>
