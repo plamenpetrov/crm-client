@@ -7,5 +7,5 @@
  */
 
 return array(
-    'server_uri' => 'http://api.kantora.com/'
+    'server_uri' => env('SERVER_URI', '')
 );
