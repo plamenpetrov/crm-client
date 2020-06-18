@@ -1,0 +1,27 @@
+version: '3.5'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/app/Dockerfile
+    container_name: crm-client_app
+    volumes:
+      - ".:/var/www/html"
+    working_dir: /var/www/html
+    networks:
+      - crm_net
+  web:
+    build:
+      context: .
+      dockerfile: docker/web/Dockerfile
+    working_dir: /var/www/html
+    ports:
+      - "80:80"
+    volumes:
+      - ".:/var/www/html"
+    networks:
+      - external_net
+networks:
+  external_net:
+    external:
+      name: crm_net
