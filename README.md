@@ -14,7 +14,40 @@ Laravel Framework based REST Client. Provade flexible and user friendly mobile U
 Download files in your web server directory and extract them. Before you run application you need to have installed 
 wamp server or any other web server pack. MySQL is also required.  
 
-### Installing
+### Docker containerization
+
+This application can be run with docker. Download and install [Docker](https://www.docker.com)
+In main directory create .env file using env.example:
+
+```
+cp .env.example .env
+```
+
+Next run following command:
+
+```
+docker-compose up --build
+```
+
+This command will create and run docker container and service with name crm-client_app.
+Next you have to enter in container to run composer command and install all dependencies:
+
+```
+docker exec -it crm-client_app bash
+```
+
+Then run:
+```
+composer install
+```
+
+After successfully run this command you also need to run:
+
+```
+php artisan key:generate
+```
+
+### Installing locally
 
 Download files in your web server directory and extract them. Create database on MySQL and configure database credentials according to your local environment. Also you will need to install [Composer](https://getcomposer.org/download/) to proper manage project dependencies. 
 In main directory create .env file and set:
